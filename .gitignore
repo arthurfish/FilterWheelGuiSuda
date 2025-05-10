@@ -345,3 +345,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/obj/Debug/net8.0-windows/FilterWheelGuiSuda.AssemblyInfo.cs
+/obj/Release/net8.0-windows/FilterWheelGuiSuda.AssemblyInfo.cs
+/obj/Debug/net8.0-windows/FilterWheelGuiSuda.GeneratedMSBuildEditorConfig.editorconfig
+/obj/x86/Debug/net8.0-windows/FilterWheelGuiSuda.AssemblyInfo.cs
+/obj/Release/net8.0-windows/FilterWheelGuiSuda.GeneratedMSBuildEditorConfig.editorconfig
+/obj/x86/Debug/net8.0-windows/FilterWheelGuiSuda.GeneratedMSBuildEditorConfig.editorconfig
