@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Arthur\\source\\repos\\FilterWheelGuiSuda\\FilterWheelGuiSuda.csproj": {}
+    "C:\\Users\\Arthur\\source\\repos\\arthurfish\\FilterWheelGuiSuda\\FilterWheelGuiSuda.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Arthur\\source\\repos\\FilterWheelGuiSuda\\FilterWheelGuiSuda.csproj": {
+    "C:\\Users\\Arthur\\source\\repos\\arthurfish\\FilterWheelGuiSuda\\FilterWheelGuiSuda.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Arthur\\source\\repos\\FilterWheelGuiSuda\\FilterWheelGuiSuda.csproj",
+        "projectUniqueName": "C:\\Users\\Arthur\\source\\repos\\arthurfish\\FilterWheelGuiSuda\\FilterWheelGuiSuda.csproj",
         "projectName": "FilterWheelGuiSuda",
-        "projectPath": "C:\\Users\\Arthur\\source\\repos\\FilterWheelGuiSuda\\FilterWheelGuiSuda.csproj",
+        "projectPath": "C:\\Users\\Arthur\\source\\repos\\arthurfish\\FilterWheelGuiSuda\\FilterWheelGuiSuda.csproj",
         "packagesPath": "C:\\Users\\Arthur\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Arthur\\source\\repos\\FilterWheelGuiSuda\\obj\\",
+        "outputPath": "C:\\Users\\Arthur\\source\\repos\\arthurfish\\FilterWheelGuiSuda\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

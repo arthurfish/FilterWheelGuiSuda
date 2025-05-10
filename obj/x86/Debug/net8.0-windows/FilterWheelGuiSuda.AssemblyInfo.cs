@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FilterWheelGuiSuda")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+730f419dc5446d1db4bf9735020129a899ca8d12")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a737363c2cc05bd53570dcdc3e5d8aaead431834")]
 [assembly: System.Reflection.AssemblyProductAttribute("FilterWheelGuiSuda")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FilterWheelGuiSuda")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
