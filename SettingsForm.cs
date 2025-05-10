@@ -20,6 +20,19 @@ namespace FilterWheelGuiSuda
             LoadCurrentSettings();
         }
 
+        private void useDefaultSettings(object? sender, EventArgs e)
+        {
+            // Assuming default settings are known and can be set directly
+            numPositionCount.Value = 6; // Example default value
+            numSpeed.Value = 1; // Example default value
+            cmbTriggerMode.SelectedIndex = 0; // Example default value
+            numMinVelocity.Value = 1000; // Example default value
+            numMaxVelocity.Value = 2000; // Example default value
+            numAcceleration.Value = 100; // Example default value
+            numSensorMode.Value = 0; // Example default value
+            lblStatus.Text = "已加载默认设置";
+        }
+
         private void LoadCurrentSettings()
         {
             if (_deviceHandle < 0)
@@ -162,6 +175,11 @@ namespace FilterWheelGuiSuda
         private void btnRefresh_Click(object sender, EventArgs e)
         {
             LoadCurrentSettings();
+        }
+
+        private void useDefaultButton_Click(object sender, EventArgs e)
+        {
+            useDefaultSettings(sender, e);
         }
     }
 }

@@ -59,6 +59,7 @@ namespace FilterWheelGuiSuda
             lblStatus = new Label();
             grpDeviceSettings = new GroupBox();
             tableLayoutPanel1 = new TableLayoutPanel();
+            useDefaultButton = new Button();
             ((System.ComponentModel.ISupportInitialize)numPositionCount).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numSpeed).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numMinVelocity).BeginInit();
@@ -128,7 +129,7 @@ namespace FilterWheelGuiSuda
             numSpeed.Anchor = AnchorStyles.Left | AnchorStyles.Right;
             numSpeed.Location = new Point(246, 136);
             numSpeed.Margin = new Padding(6);
-            numSpeed.Maximum = new decimal(new int[] { 1000, 0, 0, 0 });
+            numSpeed.Maximum = new decimal(new int[] { 1, 0, 0, 0 });
             numSpeed.Name = "numSpeed";
             numSpeed.Size = new Size(476, 38);
             numSpeed.TabIndex = 5;
@@ -337,11 +338,24 @@ namespace FilterWheelGuiSuda
             tableLayoutPanel1.Size = new Size(728, 506);
             tableLayoutPanel1.TabIndex = 0;
             // 
+            // useDefaultButton
+            // 
+            useDefaultButton.Anchor = AnchorStyles.Bottom | AnchorStyles.Left;
+            useDefaultButton.Location = new Point(216, 626);
+            useDefaultButton.Margin = new Padding(6);
+            useDefaultButton.Name = "useDefaultButton";
+            useDefaultButton.Size = new Size(180, 52);
+            useDefaultButton.TabIndex = 5;
+            useDefaultButton.Text = "使用默认设置";
+            useDefaultButton.UseVisualStyleBackColor = true;
+            useDefaultButton.Click += useDefaultButton_Click;
+            // 
             // SettingsForm
             // 
             AutoScaleDimensions = new SizeF(14F, 31F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(816, 746);
+            Controls.Add(useDefaultButton);
             Controls.Add(lblStatus);
             Controls.Add(btnRefresh);
             Controls.Add(btnSaveToDevice);
@@ -368,5 +382,6 @@ namespace FilterWheelGuiSuda
 
         private GroupBox grpDeviceSettings;
         private TableLayoutPanel tableLayoutPanel1;
+        private Button useDefaultButton;
     }
 }
